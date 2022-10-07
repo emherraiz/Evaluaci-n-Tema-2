@@ -1,3 +1,9 @@
+
+'''Script del ejercicio 1
+
+Returns:
+    class: Alumnos
+'''
 class Alumno():
     '''Esta es la clase alumno la cual nos vale para crear objetos de tipo alumno
     '''
