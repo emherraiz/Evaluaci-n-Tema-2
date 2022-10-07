@@ -1,4 +1,6 @@
 import os
+from Ejercicio_1_2.alumnos import Alumno
+
 import helpers
 
 def iniciar():
@@ -18,7 +20,29 @@ def iniciar():
         helpers.limpiar_pantalla()
 
         if opcion == '1' or opcion == '2':
-            ejercicio1()
+
+            Carlos = Alumno('Carlos', 5)
+
+
+
+            try:
+                if isinstance(Carlos.nota, int) or isinstance(Carlos.nota, float):
+                    print('OK')
+                else:
+                    print('ERROR')
+            except:
+                print('ERROR')
+
+            try:
+                if isinstance(Carlos.nombre, str):
+                    print('OK')
+                else:
+                    print('ERROR')
+
+            except:
+                print('ERROR')
+
+            
 
         elif opcion == '3' or opcion == '4':
             ejercicio3()
