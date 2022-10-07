@@ -28,8 +28,3 @@ class Alumno():
     def __str__(self):
         return f'El alumno {self.nombre} tiene una nota de {self.nota}'
 
-class Alumnos:
-
-    lista = []
-
-    with open
